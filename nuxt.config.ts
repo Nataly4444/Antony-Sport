@@ -22,7 +22,7 @@ export default defineNuxtConfig({
       theme_color: "black",
       icons: [
         {
-          src: 'Heart_48x48.png',
+          src: 'icons/Heart_48x48.png',
           sizes: '48x48',
           type: 'image/png',
         },
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         },
         {
           src: "icons/Heart_512x512.png",
-          sizes: "512x512",
+          sizes: "513x512",
           type: "image/png",
         },
       ],
