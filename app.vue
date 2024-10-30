@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!-- <NuxtPwaManifest /> -->
-      <!-- <VitePwaManifest /> -->
-    <NuxtRouteAnnouncer />
+    <VitePwaManifest />
     Антоха + Конор
     <NuxtWelcome />
   </div>
