@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['nuxt-icon', "@vite-pwa/nuxt", '@nuxtjs/tailwindcss', "@nuxt/icon"],
+  modules: ['nuxt-icon', "@vite-pwa/nuxt", '@nuxtjs/tailwindcss', "@nuxt/icon", '@nuxtjs/color-mode'],
   pwa: {
     registerType: 'autoUpdate',
     devOptions: {
@@ -67,5 +67,16 @@ export default defineNuxtConfig({
   ],
   css: [
     '~/assets/styles/main.scss'
-  ]
+  ],
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '-mode',
+    storage: 'localStorage', // or 'sessionStorage' or 'cookie'
+    storageKey: 'nuxt-color-mode'
+  }
 })

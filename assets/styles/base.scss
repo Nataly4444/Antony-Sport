@@ -16,14 +16,17 @@
     --color-text: var(--color-black);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         --color-background: var(--color-black);
+//         --color-text: var(--color-white);
+//     }
+// }
+
+.dark-mode  {
         --color-background: var(--color-black);
         --color-text: var(--color-white);
     }
-}
-
-
 
 body {
     min-height: 100vh;

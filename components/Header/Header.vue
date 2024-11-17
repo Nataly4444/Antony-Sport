@@ -28,7 +28,7 @@
                     </nav>
                 </div>
                 <div class="header__container__height__iconGroup">
-                    <button @click="navigateTo('/')" class="w-full h-full">
+                    <!-- <button @click="navigateTo('/')" class="w-full h-full">
                         <Icon name="mdi-light:magnify" size="35" color="#ffffff" />
                     </button>
                     <button @click="navigateTo('/')" class="w-full h-full">
@@ -36,7 +36,14 @@
                     </button>
                     <button class="w-full h-full">
                         <Icon class="mb-1" name="mdi-light:heart" size="32" color="#ffffff" />
-                    </button>
+                    </button> -->
+                    <DarkModeToggle />
+
+                    <!-- <button class="w-full h-full">
+                        <Icon class="mb-1" name="material-symbols-light:sunny-outline" size="32" color="#ffffff" />
+                    </button> -->
+
+
                 </div>
             </div>
         </div>
