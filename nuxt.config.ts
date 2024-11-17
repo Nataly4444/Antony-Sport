@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         },
         {
           src: "icons/Konor_512x512.png",
-          sizes: "513x512",
+          sizes: "512x512",
           type: "image/png",
         },
       ],

@@ -51,6 +51,11 @@
     background-color: #fff;
     color: #000;
 
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
+        color: white;
+    }
+
     &__container {
         padding: 0 10px;
         margin: 0 auto;
@@ -106,6 +111,17 @@
                 width: auto;
                 text-align: end;
                 display: flex;
+
+                button {
+
+                    span {
+                        color: black;
+
+                        @media (prefers-color-scheme: dark) {
+                            color: white;
+                        }
+                    }
+                }
             }
         }
     }

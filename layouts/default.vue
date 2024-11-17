@@ -17,7 +17,7 @@
 
 </script>
 
-<style lang="css" scope>
+<style lang="scss" scope>
 footer {
     position: fixed;
     bottom: 0;
@@ -26,5 +26,13 @@ footer {
     height: 70px;
     width: 100%;
     z-index: 50;
+    background-color: white;
+    color: black;
+
+
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
+        color: white;
+    }
 }
 </style>
