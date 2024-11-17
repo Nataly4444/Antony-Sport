@@ -12,7 +12,7 @@
 
 definePageMeta({
     layout: 'default',
-})
 
+})
 
 </script>

@@ -19,5 +19,4 @@ const toogleDarkMode = () => {
     }
     console.log(colorMode);
 }
-
 </script>
