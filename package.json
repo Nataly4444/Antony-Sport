@@ -19,7 +19,7 @@
     "nuxt": "^3.13.2",
     "nuxt-icon": "^1.0.0-beta.7",
     "prisma": "^5.22.0",
-    "sass": "^1.80.7",
+    "sass": "^1.81.0",
     "uuid": "^11.0.3",
     "vue": "latest",
     "vue-router": "latest"

@@ -48,13 +48,8 @@
 
 <style lang="scss" scope>
 .header {
-    background-color: #fff;
-    color: #000;
-
-    @media (prefers-color-scheme: dark) {
-        background-color: black;
-        color: white;
-    }
+    background-color: var(--color-background);
+    color: var(--color-text);
 
     &__container {
         padding: 0 10px;
@@ -98,7 +93,6 @@
                         flex-wrap: wrap;
                         display: inline-flex;
                         list-style: none;
-
                         justify-content: center;
 
                         li {}
@@ -115,11 +109,7 @@
                 button {
 
                     span {
-                        color: black;
-
-                        @media (prefers-color-scheme: dark) {
-                            color: white;
-                        }
+                        color: var(--color-text);
                     }
                 }
             }

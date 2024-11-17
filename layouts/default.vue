@@ -22,17 +22,11 @@ footer {
     position: fixed;
     bottom: 0;
     display: flex;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--color-text);
     height: 70px;
     width: 100%;
     z-index: 50;
-    background-color: white;
-    color: black;
-
-
-    @media (prefers-color-scheme: dark) {
-        background-color: black;
-        color: white;
-    }
+    background-color: var(--color-background);
+    color: var(--color-text);
 }
 </style>

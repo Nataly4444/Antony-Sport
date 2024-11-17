@@ -65,4 +65,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  css: [
+    '~/assets/styles/main.scss'
+  ]
 })
