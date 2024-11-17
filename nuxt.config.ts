@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ["@vite-pwa/nuxt"],
+  modules: ['nuxt-icon', "@vite-pwa/nuxt", '@nuxtjs/tailwindcss', "@nuxt/icon"],
   pwa: {
     registerType: 'autoUpdate',
     devOptions: {
@@ -22,31 +22,47 @@ export default defineNuxtConfig({
       theme_color: "black",
       icons: [
         {
-          src: 'icons/Heart_48x48.png',
+          src: 'icons/Konor_48x48.png',
           sizes: '48x48',
           type: 'image/png',
         },
         {
-          src: "icons/Heart_64x64.png",
+          src: "icons/Konor_64x64.png",
           sizes: "64x64",
           type: "image/png",
         },
         {
-          src: "icons/Heart_144x144.png",
+          src: "icons/Konor_144x144.png",
           sizes: "144x144",
           type: "image/png",
         },
         {
-          src: "icons/Heart_192x192.png",
+          src: "icons/Konor_192x192.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "icons/Heart_512x512.png",
+          src: "icons/Konor_512x512.png",
           sizes: "513x512",
           type: "image/png",
         },
       ],
     },
-  }
+  },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+    }
+  },
+
+  // rootDir: __dirname,
+  // srcDir: "client",
+  // serverDir: "server",
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
 })

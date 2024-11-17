@@ -1,7 +1,13 @@
 <template>
   <div>
     <VitePwaManifest />
-    Антоха + Конор
-    <NuxtWelcome />
+    <NuxtLayout>
+
+      <div class="fixed w-[calc(100%+1px)] h-full">
+        <NuxtPage />
+      </div>
+
+    </NuxtLayout>
+
   </div>
 </template>
