@@ -19,9 +19,8 @@ footer {
     height: 70px;
     width: 100%;
     z-index: 50;
-    /* background-color: var(--color-background);
-    color: var(--color-text); */
+    background-color: var(--color-background);
+    color: var(--color-text); 
 
-    background-color: red;
 }
 </style>

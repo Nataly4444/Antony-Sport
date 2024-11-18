@@ -1,9 +1,9 @@
 <template>
-    <div class="h-screen">
+    <div class="layout">
         <Header />
+        <SocialBar/>
 
-
-        <div class="flex w-full max-w-[500px] mx-auto h-screen">
+        <div class="slotContainer">
             <slot />
         </div>
 
@@ -16,5 +16,15 @@
 </script>
 
 <style lang="scss" scope>
-div {}
+.layout {
+    position: relative;
+    height: 100vh;
+}
+
+.slotContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
 </style>

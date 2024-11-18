@@ -3,7 +3,7 @@
     <VitePwaManifest />
     <NuxtLayout>
 
-      <div class="fixed w-[calc(100%+1px)] h-full">
+      <div class="wrapper">
         <NuxtPage />
       </div>
 
@@ -18,3 +18,12 @@ definePageMeta({
 
 })
 </script>
+
+<style lang="scss" scope>
+.wrapper {
+  position: fixed;
+  width: calc(100% + 1px);
+  height: 100%;
+}
+
+</style>
