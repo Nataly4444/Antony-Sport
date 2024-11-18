@@ -1,18 +1,15 @@
 <template>
     <div class="social">
-        <NuxtLink to="https://api.whatsapp.com/send?phone=79774248180" class="link" >
+        <NuxtLink to="https://api.whatsapp.com/send?phone=79774248180" class="link" target="_blank">
             <Icon name="hugeicons:whatsapp" size="30" color="var(--color-text)" />
         </NuxtLink>
-        <a href="https://api.whatsapp.com/send?phone=79774248180" class="link">
-            <Icon  name="hugeicons:whatsapp" size="30" color="var(--color-text)" />
-        </a>
-        <NuxtLink to="t.me/ToniKuchin" class="link">
+        <NuxtLink to="https://tlgg.ru/@ToniKuchin" class="link" target="_blank">
             <Icon name="hugeicons:telegram" size="30" color="var(--color-text)" />
         </NuxtLink>
-        <NuxtLink to="http://vk.com/a.kuchin91" class="link">
+        <NuxtLink to="http://vk.com/a.kuchin91" class="link" target="_blank">
             <Icon name="hugeicons:vk-square" size="30" color="var(--color-text)" />
         </NuxtLink>
-        <NuxtLink to="https://www.instagram.com/proteinman99/profilecard/?igsh=MWFiYmM2MWkzNXdkdA==" class="link">
+        <NuxtLink to="https://www.instagram.com/proteinman99/profilecard/?igsh=MWFiYmM2MWkzNXdkdA==" class="link" target="_blank">
             <Icon name="hugeicons:instagram" size="30" color="var(--color-text)" />
         </NuxtLink>
     </div>
