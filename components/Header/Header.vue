@@ -6,27 +6,38 @@
                     <Icon name="mdi-light:format-align-left" size="35" color="#ffffff" />
                 </button>
                 <Logo />
-                <div class="header__container__height__menu">
+                <Menu />
+                <!-- <div class="header__container__height__menu">
                     <nav>
                         <ul>
                             <li>
-                                HOME
+                                <NuxtLink to="/" class="link">
+                                    HOME
+                                </NuxtLink>
                             </li>
                             <li>
-                                SHOP
+                                <NuxtLink to="/shop" class="link">
+                                    SHOP
+                                </NuxtLink>
                             </li>
                             <li>
-                                ABOUT US
+                                <NuxtLink to="/aboutus" class="link">
+                                    ABOUT US
+                                </NuxtLink>
                             </li>
                             <li>
-                                FAQs
+                                <NuxtLink to="/" class="link">
+                                    FAQs
+                                </NuxtLink>
                             </li>
                             <li>
-                                CONTACT US
+                                <NuxtLink to="/contacts" class="link">
+                                    CONTACT US
+                                </NuxtLink>
                             </li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
                 <div class="header__container__height__iconGroup">
                     <!-- <button @click="navigateTo('/')" class="w-full h-full">
                         <Icon name="mdi-light:magnify" size="35" color="#ffffff" />
