@@ -3,27 +3,27 @@
         <nav>
             <ul>
                 <li>
-                    <NuxtLink to="/" class="link">
+                    <NuxtLink to="/">
                         HOME
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/shop" class="link">
+                    <NuxtLink to="/shop">
                         SHOP
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/aboutus" class="link">
+                    <NuxtLink to="/aboutus">
                         ABOUT US
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/" class="link">
+                    <NuxtLink to="/">
                         FAQs
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/contacts" class="link">
+                    <NuxtLink to="/contacts">
                         CONTACT US
                     </NuxtLink>
                 </li>

@@ -1,7 +1,8 @@
 <template>
     <div class="layout">
+
         <Header />
-        <SocialBar/>
+        <SocialBar />
 
         <div class="slotContainer">
             <slot />
@@ -19,12 +20,12 @@
 .layout {
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 
-.slotContainer{
+.slotContainer {
     display: flex;
     width: 100%;
     height: 100vh;
-
 }
 </style>

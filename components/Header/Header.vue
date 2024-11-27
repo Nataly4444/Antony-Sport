@@ -2,45 +2,14 @@
     <header class="header">
         <div class="header__container">
             <div class="header__container__height">
-                <button @click="navigateTo('/')" class="header__container__height__menuMobile">
-                    <Icon name="mdi-light:format-align-left" size="35" color="#ffffff" />
-                </button>
+                <MenuMobile class="header__sidebar" />
                 <Logo />
                 <Menu />
-                <!-- <div class="header__container__height__menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <NuxtLink to="/" class="link">
-                                    HOME
-                                </NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/shop" class="link">
-                                    SHOP
-                                </NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/aboutus" class="link">
-                                    ABOUT US
-                                </NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/" class="link">
-                                    FAQs
-                                </NuxtLink>
-                            </li>
-                            <li>
-                                <NuxtLink to="/contacts" class="link">
-                                    CONTACT US
-                                </NuxtLink>
-                            </li>
-                        </ul>
-                    </nav>
-                </div> -->
+
+
                 <div class="header__container__height__iconGroup">
                     <!-- <button @click="navigateTo('/')" class="w-full h-full">
-                        <Icon name="mdi-light:magnify" size="35" color="#ffffff" />
+                        <Icon name"mdi-light:magnify" size="35" color="#ffffff" />
                     </button>
                     <button @click="navigateTo('/')" class="w-full h-full">
                         <Icon name="mdi-light:account" size="35" color="#ffffff" />
@@ -59,15 +28,20 @@
             </div>
         </div>
     </header>
-
 </template>
-
-
 
 <style lang="scss" scope>
 .header {
     background-color: var(--color-background);
     color: var(--color-text);
+
+    &__sidebar {
+        display: none;
+
+        @media (max-width: 760px) {
+            display: flex;
+        }
+    }
 
     &__container {
         padding: 0 10px;

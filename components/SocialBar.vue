@@ -9,7 +9,8 @@
         <NuxtLink to="http://vk.com/a.kuchin91" class="link" target="_blank">
             <Icon name="hugeicons:vk-square" size="30" color="var(--color-text)" />
         </NuxtLink>
-        <NuxtLink to="https://www.instagram.com/proteinman99/profilecard/?igsh=MWFiYmM2MWkzNXdkdA==" class="link" target="_blank">
+        <NuxtLink to="https://www.instagram.com/proteinman99/profilecard/?igsh=MWFiYmM2MWkzNXdkdA==" class="link"
+            target="_blank">
             <Icon name="hugeicons:instagram" size="30" color="var(--color-text)" />
         </NuxtLink>
     </div>
@@ -39,16 +40,15 @@ export default {
     z-index: 50;
 }
 
-.link{
+.link {
     width: 30px;
     height: 30px;
     box-sizing: border-box;
     cursor: pointer !important;
 
-    :hover{
+    &:hover {
         transition: transform 0.3s ease;
         transform: scale(1.25);
     }
 }
-
 </style>
